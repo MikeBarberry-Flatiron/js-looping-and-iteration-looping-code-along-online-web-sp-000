@@ -4,3 +4,5 @@ function writeCards(array, event) {
     console.log(`Thank you, ${array[i]}, for the wonderful ${event} gift!`)
   }
 }
+
+names = ["Chris", "Amanda", "Izzy"]
