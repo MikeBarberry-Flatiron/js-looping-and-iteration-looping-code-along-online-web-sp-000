@@ -13,4 +13,3 @@ countdown = (num) => {
     i--;
   }
 }
-
