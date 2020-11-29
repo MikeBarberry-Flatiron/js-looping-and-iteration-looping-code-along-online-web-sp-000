@@ -12,6 +12,7 @@ function countDown (num) {
     console.log(num);
     num -= 1;
   }
+  console.log(num)
 }
 
 countDown(13)
