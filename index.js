@@ -7,4 +7,4 @@ writeCards = (list, reason) => {
 
 names = ["Chris", "Amanda", "Izzy"]
 
-writeCards(array, "birthday")
+writeCards(names, "birthday")
