@@ -1,6 +1,6 @@
 // Code your solutions in this file
-function writeCards(string, event) {
-  for (let i = 0; i < string.length; i++) {
+function writeCards(array, event) {
+  for (let i = 0; i < array.length; i++) {
     console.log(`Thank you, ${string[i]}, for the wonderful ${event} gift!`)
   }
 }
