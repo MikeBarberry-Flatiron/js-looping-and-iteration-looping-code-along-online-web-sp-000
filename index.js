@@ -1,8 +1,8 @@
 // Code your solutions in this file
 writeCards = (list, reason) => {
-  thankYous = []
+  let thankYous = []
   for (let i = 0; i < list.length; i++) {
-    console.log(`Thank you, ${list[i]}, for the wonderful ${reason} gift!`)
+    thankYous.push(`Thank you, ${list[i]}, for the wonderful ${reason} gift!`)
   }
   return thankYous
 }
@@ -10,3 +10,4 @@ writeCards = (list, reason) => {
 names = ["Chris", "Amanda", "Izzy"]
 
 writeCards(names, "birthday")
+
