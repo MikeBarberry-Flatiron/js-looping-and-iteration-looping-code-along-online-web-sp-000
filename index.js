@@ -7,7 +7,7 @@ writeCards = (list, reason) => {
   return thankYous
 }
 
-countDown = (num) => {
+function countDown (num) {
   while (num > 0) {
     console.log(num);
     num -= 1;
