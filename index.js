@@ -6,3 +6,5 @@ function writeCards(array, event) {
 }
 
 names = ["Chris", "Amanda", "Izzy"]
+
+writeCards(array, "birthday")
