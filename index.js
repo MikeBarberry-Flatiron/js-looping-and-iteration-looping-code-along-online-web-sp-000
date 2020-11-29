@@ -7,6 +7,8 @@ writeCards = (list, reason) => {
   return thankYous
 }
 
-names = ["Chris", "Amanda", "Izzy"]
-
-writeCards(names, "birthday")
+let num = 12
+while (num >= 0) {
+  console.log(num[i]);
+  i--;
+}
