@@ -8,9 +8,8 @@ writeCards = (list, reason) => {
 }
 
 countDown = (num) => {
-  let i = 12
-  while (num >= 0) {
-    console.log(num[i]);
+  while (num > 0) {
+    console.log(num);
     i--;
   }
 }
