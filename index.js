@@ -10,7 +10,7 @@ writeCards = (list, reason) => {
 countDown = (num) => {
   while (num > 0) {
     console.log(num);
-    i--;
+    num -= 1;
   }
 }
 
