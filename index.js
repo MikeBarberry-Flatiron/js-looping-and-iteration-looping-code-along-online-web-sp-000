@@ -10,4 +10,3 @@ writeCards = (list, reason) => {
 names = ["Chris", "Amanda", "Izzy"]
 
 writeCards(names, "birthday")
-
