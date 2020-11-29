@@ -7,8 +7,10 @@ writeCards = (list, reason) => {
   return thankYous
 }
 
-countdown(num)
-while (num >= 0) {
-  console.log(num[i]);
-  i--;
+countdown = (num) => {
+  while (num >= 0) {
+    console.log(num[i]);
+    i--;
+  }
 }
+
